@@ -14,6 +14,22 @@ altough being an imperative language Golang offers several qualities of function
 being first class citizens, and great type inference , and it would benefit from a functional flavor .
 
 
+Package Organization
+---------------------
+
+Lori is modular it follows the idea that you should only import what you need , it's organized into 
+multiple subpackages that provide each a set of functions that operate on a datastructure or type .
+
+* List : all functions in the list subpackage operate on golang slices .
+* Math : any extra mathy things you need can be found here .
+* Function : provides higher order function utils .
+* Relation : provides functions that offer relation and order primitives .
+
+Docs
+--------------
+
+Documentation will be up soon .
+
 
 Philosophy
 -----------
